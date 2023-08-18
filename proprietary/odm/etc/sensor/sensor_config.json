@@ -1,5 +1,5 @@
 {
-    "19830":{
+    "19831":{
         "platform_config":{
             "sensor_arch":"qcom_sensor_see"
         },
@@ -59,6 +59,14 @@
             "oneplus.sensor.ultrasound.proximity":{
                 "type":33171998,
                 "support":"true"
+            },
+            "qti.sensor.sars":{
+                "type":33171029,
+                "support":"true",
+                "module":"SX9324_SAR",
+                "SX9324_SAR":{
+                    "mode":"single_channel"
+                }
             },
             "android.sensor.step_counter":{
                 "type":19,
